@@ -157,7 +157,7 @@ chain_dir = repo_root / "DATA" / "visc25"
 After configuring paths and dependencies, run the desired script, for example:
 
 ```bash
-python "CODES /Getdist_combined_minimal.py"
+python "CODES/Getdist_combined_minimal.py"
 ```
 
 The combined triangle scripts filter samples to `-2.5 < w < -0.33`, `0 <= n <= 0.8`, and `-0.3 < gam < 0.3`, in addition to removing non-finite rows. These are explicit post-processing selections, not documentation of the original sampling priors. The density and distance scripts use their own validity checks; inspect those before comparing outputs or adapting scripts to the revision chains.
