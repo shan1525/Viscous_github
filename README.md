@@ -185,8 +185,20 @@ The [non-minimal-model figures](PLOTS/NON-MINIMAL/) include:
 
 Four further color-coded PDFs are stored in `DATA/visc25/`. Separate generation scripts for these additional figures are not included.
 
-## Citation and reuse
+## Citation
 
-The associated article's title, author list, DOI, and arXiv identifier are not supplied in this archive. A formal citation should be added when those details are available.
+If you use the chains, analysis code, or figures in this repository, please cite the associated article:
 
-No license file is included. No additional reuse license is asserted by this README; contact the repository owner for clarification. Third-party software and observational data remain subject to their respective terms and citation requirements.
+Shahnawaz A. Adil, Sonej Alam, Somasri Sen, and J. Alberto Vazquez, *Dissipative Cosmology and the Nature of Dark Energy: Insights from Bulk Viscosity with DESI DR2 observations*, arXiv:2606.05539 [astro-ph.CO] (2026). [Read the article](https://arxiv.org/abs/2606.05539).
+
+```bibtex
+@article{Adil:2026ift,
+    author = "Adil, Shahnawaz A. and Alam, Sonej and Sen, Somasri and Vazquez, J. Alberto",
+    title = "{Dissipative Cosmology and the Nature of Dark Energy: Insights from Bulk Viscosity with DESI DR2 observations}",
+    eprint = "2606.05539",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.CO",
+    month = "6",
+    year = "2026"
+}
+```
