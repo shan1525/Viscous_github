@@ -148,7 +148,7 @@ chain_dir = repo_root / "DATA" / "visc25"
 | Script in `CODES` | Purpose |
 | --- | --- |
 | `Getdist_combined_minimal.py` | Compare Union3 and PantheonPlusSH0ES posterior constraints for the minimal model; report the derived present-day physical bulk viscosity. |
-| `Getdist_combined_nonminimal.py` | Corresponding comparison for the non-minimal model, including `s` (plotted as ξ). |
+| `Getdist_combined_nonminimal.py` | Corresponding comparison for the non-minimal model, including `s` (plotted as \xi). |
 | `all_plots_minimal.py` | Minimal-model distance-ratio plots with observational points and a ΛCDM reference curve. |
 | `all_plots_non-minimal.py` | Corresponding non-minimal distance-ratio plots. |
 | `rho_fgiven_minimal.py` | Minimal-model density and density-plus-pressure evolution with functional posterior contours. |
@@ -183,7 +183,7 @@ The [non-minimal-model figures](PLOTS/NON-MINIMAL/) include:
 - [Density plus pressure](PLOTS/NON-MINIMAL/visc_rhoPlusP_fgiven.pdf)
 - Additional triangle PDFs named `visc_triangle_temperature_w.pdf`, `visc_triangle_temperature_alp.pdf`, and `visc_triangle_temperature_n.pdf`.
 
-Four further color-coded PDFs are stored in `DATA/visc25/`. Separate generation scripts for these additional figures are not included. The archived PDFs have not been regenerated or matched numerically to the supplied scripts as part of preparing this documentation.
+Four further color-coded PDFs are stored in `DATA/visc25/`. Separate generation scripts for these additional figures are not included.
 
 ## Citation and reuse
 
