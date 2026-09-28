@@ -11,7 +11,7 @@ The archive supports inspection of existing results and further posterior analys
 ```text
 .
 ├── README.md
-├── CODES /                       # The current directory name has a trailing space
+├── CODES/                       # The plotting utilities
 │   ├── Getdist_combined_minimal.py
 │   ├── Getdist_combined_nonminimal.py
 │   ├── all_plots_minimal.py
@@ -20,14 +20,13 @@ The archive supports inspection of existing results and further posterior analys
 │   └── rho_fgiven_nonminimal.py
 ├── DATA/
 │   ├── visc25/                   # Outputs used by the supplied plotting scripts
-│   ├── revision_prior/           # Separate run collection
-│   └── revision_gamma/           # Separate collection with different parameter columns
+│   ├── revision_prior/           # Separate run collection for prior consistency checks
+│   └── revision_gamma/           # Separate run collection with gamma=0 case
 └── PLOTS/
     ├── MINIMAL/
     └── NON-MINIMAL/
 ```
 
-The commands below quote `CODES ` to preserve its trailing space. If the directory is renamed to `CODES`, update those commands accordingly.
 
 ## Models and run collections
 
@@ -136,7 +135,7 @@ The scripts retain paths from the original analysis environment and need local c
 3. In the density scripts, update `outdir` to your desired output directory.
 4. The two triangle scripts both export `visc_combined_triangle.pdf` in the working directory. Give the output files distinct names or run the scripts in separate output directories to retain both results. The archived figures have distinct minimal/non-minimal filenames.
 
-For example, within a script located in `CODES `, a repository-relative data path can be constructed as:
+For example, within a script located in `CODES`, a repository-relative data path can be constructed as:
 
 ```python
 from pathlib import Path
@@ -146,7 +145,7 @@ chain_dir = repo_root / "DATA" / "visc25"
 
 ### Script guide
 
-| Script in `CODES ` | Purpose |
+| Script in `CODES` | Purpose |
 | --- | --- |
 | `Getdist_combined_minimal.py` | Compare Union3 and PantheonPlusSH0ES posterior constraints for the minimal model; report the derived present-day physical bulk viscosity. |
 | `Getdist_combined_nonminimal.py` | Corresponding comparison for the non-minimal model, including `s` (plotted as ξ). |
