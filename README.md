@@ -40,7 +40,7 @@ The non-minimal triangle script labels the parameter stored as `s` with the symb
 
 - `visc25` contains six run roots: three models for each of the two dataset combinations. It also contains four additional PDF plots and a `_test.txt` file.
 - `revision_prior` contains four viscous-model run roots. This checks the prior dependency for the viscous runs.
-- `revision_gamma` contains four viscous-model run roots. This check the case where gamma=0.
+- `revision_gamma` contains four viscous-model run roots. This checks the case where gamma=0.
 
 These directories represent separate analyses. Do not concatenate them or substitute them in the scripts without checking parameter definitions, priors, and model settings.
 
